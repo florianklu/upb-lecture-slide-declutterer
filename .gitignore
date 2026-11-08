@@ -1,0 +1,20 @@
+# Python & Virtuelle Umgebung
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Alle pdf, potx, pptx-Dateien standardmäßig ignorieren
+*.pdf
+*.potx
+*.pptx
+
+# Beispiel-PDFs
+!examplePDFs/UPB_Vorlage_Test_Slides.pdf
+!examplePDFs/preview_UPB_Vorlage_Test_Slides.pdf
+!examplePDFs/clean_UPB_Vorlage_Test_Slides.pdf
