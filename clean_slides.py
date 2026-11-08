@@ -982,7 +982,7 @@ class SlideCleaner:
                 print(f"  - {tname:32s}: {cnt:2d} Folien")
 
         if not preview_mode:
-            doc.save(str(out_path), garbage=4, deflate=True)
+            doc.save(str(out_path), garbage=4, deflate=1, use_objstms=True)
             print(f"\n[OK] Bereinigte Datei gespeichert: {out_path}")
         else:
             doc.save(str(out_path))
