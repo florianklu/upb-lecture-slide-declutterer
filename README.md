@@ -2,6 +2,8 @@
 
 Python-Tool zum automatischen Entfernen wiederkehrender Design- und Layout-Elemente aus Vorlesungsfolien (PDF) der Universität Paderborn.
 
+![Beispiel Bereinigung](example.png)
+
 ## Funktionen
 
 - **UPB-Vorlagen-Erkennung:** Klassifiziert Folien anhand der Referenzvorlagen in `templates/` (z. B. *Title slide*, *Agenda*, *Separation page*, *Content*, *Contact*).
